@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
-html {
-    width: 700px;
+header h1 {
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.hero-container {
+    display: inline-block;
+    margin: auto;
 }
