@@ -2,12 +2,11 @@
     box-sizing: border-box;
 }
 
-header h1 {
-    display: inline-block;
-}
-
 header nav {
     display: inline-block;
+    text-align: center;
+    /* position: fixed; */
+    color: lightgrey;
 }
 
 .main-container {
@@ -17,5 +16,17 @@ header nav {
 
 .hero-container {
     display: inline-block;
-    margin: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    background: white;
+    width: 175px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 16px;
 }
