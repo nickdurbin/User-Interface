@@ -26,7 +26,7 @@ header nav {
 
 .main-container {
     margin: 0 auto;
-    width: 800px;
+    width: 850px;
 }
 
 .nav-container {
@@ -57,22 +57,31 @@ header nav {
     float: right;
     width: 50%;
     height: 100%;
-    padding: 5px;
+    padding: 15px;
 }
 
 h1 {
     font-size: 5rem;
     text-align: center;
+    height: 100%;
 }
 
+
+/* .button-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+} */
+
 button {
+    display: block;
     background: white;
     width: 175px;
     height: 35px;
     border: 1px solid black;
     font-size: 16px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 hr {
@@ -91,6 +100,11 @@ hr {
     float: right;
     width: 50%;
     padding: 5px;
+}
+
+.middle-img-container {
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .services-container {
