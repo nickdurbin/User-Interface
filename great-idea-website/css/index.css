@@ -18,6 +18,11 @@ h5 {
     margin-bottom: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: silver;
+}
+
 header nav {
     display: inline-block;
     text-align: center;
@@ -26,7 +31,7 @@ header nav {
 
 .main-container {
     margin: 0 auto;
-    width: 850px;
+    width: 875px;
 }
 
 .nav-container {
@@ -51,19 +56,23 @@ header nav {
     width: 50%;
     height: 100%;
     padding: 5px;
+    margin: 30px 0 0 0;
 }
 
 .hero-img-container {
     float: right;
     width: 50%;
     height: 100%;
-    padding: 15px;
+    padding: 15px 40px;
+    margin: 20px 0 30px 0;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: center;
+    vertical-align: center;
     height: 100%;
+    padding: 0 80px;
 }
 
 
@@ -79,7 +88,8 @@ button {
     width: 175px;
     height: 35px;
     border: 1px solid black;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
     margin: 0 auto;
 }
@@ -103,7 +113,7 @@ hr {
 }
 
 .middle-img-container {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
 }
 
@@ -123,6 +133,10 @@ hr {
     float: left;
     width: 33%;
     padding: 5px;
+}
+
+footer {
+    height: 100%;
 }
 
 footer p {
